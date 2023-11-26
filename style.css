@@ -1,0 +1,356 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    min-height: 100%;
+    width: 100%;
+    background-image: url("Metal.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+    font: 1em sans-serif;
+    font-size: 16px;
+    background-color: #1b1919;
+}
+
+header {
+    margin: 0;
+}
+
+.bg {
+    width: 100%;
+    background-color: #141212ab;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 40px;
+    display: block;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Navigation */
+nav.main-nav {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+nav.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    justify-content: space-between;
+
+}
+
+@media screen and (min-width: 460px) {
+    nav.main-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+
+    }
+}
+
+nav.main-nav ul li {
+    text-align: center;
+}
+
+nav.main-nav ul li a {
+    display: inline;
+    padding: .3em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+nav.main-nav ul li a:hover {
+    background-color: #000;
+}
+
+.feet {
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.copyright {
+    border-top: 1px solid #fff;
+    padding: 1em 0;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ytvid {
+    text-align: center;
+    width: 100%;
+}
+
+#myiframe {
+    width: 100%;
+    height: 300px;
+}
+
+@media only screen and (min-width: 33.75em) {
+
+    /* 540px */
+    .container {
+        width: 80%;
+    }
+}
+
+
+@media only screen and (min-width: 60em) {
+
+    /* 960px */
+    .container {
+        width: 75%;
+        max-width: 60rem;
+    }
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: gold;
+}
+
+/* PAGE 2 */
+/* Flex container with images */
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px;
+    height: 100%;
+    max-height: auto;
+}
+
+.image-container {
+    text-align: center;
+    margin: 10px;
+
+    outline: #fff;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: black;
+}
+
+
+
+/* PAGE 3 */
+/* Paragragh styling and grid organisation */
+
+.grid {
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr .10fr;
+    grid-template-rows: 1fr;
+    display: inline-grid;
+    align-items: start;
+}
+
+.grid ul {
+    list-style-type: none;
+    padding: 10px 5px 5px 5px;
+    display: inline-block;
+    border-style: none;
+}
+
+.grid a {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+#sidenav {
+    display: inline-block;
+    grid-column: 2 / 2;
+    border-style: solid;
+    color: #fff;
+    border-width: 1px;
+}
+
+#sidenav a {
+    color: gold;
+    text-decoration: none;
+
+}
+
+.column1 {
+    border-style: solid;
+    border-color: #fff;
+    grid-column: 1 / 1;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.column1 li {
+    font-weight: bolder;
+    font-size: 3em;
+}
+
+
+ul {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.p1 {
+    border-style: solid;
+    border-color: #fff;
+    grid-column: 1 / 1;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.p1 li {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.p2 {
+    border-style: solid;
+    border-color: #fff;
+    grid-column: 1 / 1;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.p2 li {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.p3 {
+    border-style: solid;
+    border-color: #fff;
+    grid-column: 1 / 1;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+}
+
+.p3 li {
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+#culture {
+    border-style: solid;
+    border-color: #fff;
+    border-width: 3px;
+}
+
+/* PAGE 4 */
+/* simple form table */
+
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 33%;
+    max-width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: gold;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#mailto {
+    text-align: center;
+}
+
+#mailto a {
+    color: gold;
+
+}
