@@ -8,7 +8,7 @@ body {
     font-size: 100%;
     min-height: 100%;
     width: 100%;
-    background-image: url(/Imagegallery/Metal.jpeg);
+    background-image: url(Imagegallery/Metal.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
